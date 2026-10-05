@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: idawud.ShelfMD
-PackageVersion: 2.0.0
+PackageVersion: 2.1.3
 InstallerLocale: en-US
 InstallModes:
 - interactive
@@ -14,7 +14,7 @@ Installers:
 - Architecture: x64
   InstallerType: nullsoft
   Scope: user
-  InstallerUrl: https://github.com/idawud/ShelfMD/releases/download/v2.0.0/ShelfMD_2.0.0_x64-setup.exe
+  InstallerUrl: https://github.com/idawud/ShelfMD/releases/download/v2.1.3/ShelfMD_2.1.3_x64-setup.exe
   InstallerSha256: DF21257F391ABC71F4D7F1DA2F4884B3746FC67F79BCB7A488064FEEAB35C41F
   ProductCode: ShelfMD
   AppsAndFeaturesEntries:
@@ -25,7 +25,7 @@ Installers:
 - Architecture: x64
   InstallerType: wix
   Scope: machine
-  InstallerUrl: https://github.com/idawud/ShelfMD/releases/download/v2.0.0/ShelfMD_2.0.0_x64_en-US.msi
+  InstallerUrl: https://github.com/idawud/ShelfMD/releases/download/v2.1.3/ShelfMD_2.1.3_x64_en-US.msi
   InstallerSha256: BD9EDB2DE9A670521F9C440ABB38B9BEA65C0FC812AEA0CED9D568B89E1E1958
   ProductCode: '{065D79B9-6C90-4078-AC6F-5D29093A3E8D}'
   AppsAndFeaturesEntries:
